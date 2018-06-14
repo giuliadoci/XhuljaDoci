@@ -1,0 +1,179 @@
+
+#title{
+  font-size: 20px;
+  color: #ffffff;
+  background: transparent;
+}
+#xhuljaPic{
+  width: 100%;
+}
+
+#pic-content{
+  width: 100%;
+  margin-top: 2em;
+}
+
+.contents{
+  display: none;
+}
+
+.contentswbg{
+  background-color:#fff;
+  padding: 20px;
+}
+
+.TitoloPagina{
+  text-align: center;
+  font-size: 100px;
+  font-variant: inherit;
+  font-weight: bold;
+}
+
+.imgwrapper img {
+  height: 100%;
+}
+
+.imgwrapper{
+  width:100%;
+min-height:388px;
+max-height:388px;
+}
+
+body{
+  background-image: url("images/sfondo.jpg");
+}
+
+
+.visible-content{
+  display: block;
+}
+#content_home{
+  /*background-image: url("images/sfondo.jpg"); */
+  background-color: black;
+}
+.Titoloinalto{
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2;
+}
+/*inizio over*/
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 36%;
+  width: 100%;
+  opacity: 0;
+  transition: .2s ease;
+  background-color: #FFFFD0;
+}
+
+.containeroverl:hover .overlay {
+  opacity: 1;
+}
+.overltext {
+  color:black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*immagine responsive*/
+.responsive {
+    width: auto;
+    max-height: 50px;
+    height: 100%;
+}
+.iMieiDiv {
+  font-size: 20px;
+  font-weight: semi-bold;
+}
+/* contact */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 26px;
+    resize: vertical
+}
+input[type=submit] {
+    background-color: #002041;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #00121F;
+}
+
+/* BANNER IN BASSO*/
+.Banner {
+  background-color:#edeff2;
+  background-size: cover;
+  height: 100px;
+  font-size: 12px;
+  text-align: center;
+  text-emphasis-color: red;
+  padding: 20px;
+  display: none;
+}
+.social {
+  text-align: center;
+  padding: 5px;
+  background-color: #edeff2;
+  display: inline-block;
+  padding-top: 15px;
+}
+#social2 a, #social2 a:visited {
+  background-color: #edeff2;
+  color: black;
+  font-size: 15px;
+  font-weight: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+/*tornaindietro*/
+#backtop {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  position: fixed;
+  bottom: 50px;
+  right: 70px;
+  border-radius: 50%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:1;
+  text-align: center;
+}
+#bottone {
+  padding-top: 13px;
+}
