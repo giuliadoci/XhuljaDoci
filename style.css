@@ -26,7 +26,10 @@
   text-align: center;
   font-size: 100px;
   font-variant: inherit;
-  font-weight: bold;
+  font-weight: bolder;
+  font-family: Tahoma;
+  font-size-adjust: auto;
+  font-stretch: extra-expanded;
 }
 
 .imgwrapper img {
