@@ -13,6 +13,93 @@
   margin-top: 2em;
 }
 
+.carouselPic{
+  width: 100%;
+  height: 450px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.myCustomControl{
+  background-color: black;
+}
+#ilSignore{
+  background-image: url("images/progetti/manifesti.jpg");
+}
+
+#cartaIntestata{
+  background-image: url("images/progetti/carta intestata.jpg");
+}
+
+#manifesto{
+  background-image: url("images/progetti/manifesto.jpg");
+}
+
+#street{
+  background-image: url("images/progetti/mockup street 1.jpg");
+}
+#amelie{
+  background-image: url("images/progetti/Mockup.amelipsd.jpg");
+}
+#her{
+  background-image: url("images/progetti/Poster_her.jpg");
+}
+#Mockup{
+  background-image: url("images/progetti/product-box-mockup.jpg");
+}
+#camomilla{
+  background-image: url("images/progetti/camomilla.jpg");
+}
+#pack{
+  background-image: url("images/progetti/FATTODEFINITIVO packaging.jpg");
+}
+#biscotti{
+  background-image: url("images/progetti/fustella definitiva.jpg");
+}
+#rumore{
+  background-image: url("images/progetti/rumore_Pagina_1.jpg");
+}
+#render{
+  background-image: url("images/progetti/provarender.jpg");
+}
+#micoli{
+  background-image: url("images/progetti/BATTESIMO MICOLI.jpg");
+}
+
+.loader-container{
+  display: none;
+  top: 30%;
+  left:50%;
+  position: absolute;
+  transform: translate(-50%; -50%);
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
 .contents{
   display: none;
 }
@@ -92,7 +179,7 @@ body{
 /*immagine responsive*/
 .responsive {
     width: auto;
-    max-height: 50px;
+    max-height: 100px;
     height: 100%;
 }
 .iMieiDiv {
@@ -179,4 +266,18 @@ input[type=submit]:hover {
 }
 #bottone {
   padding-top: 13px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 330px) and (max-width: 990px) {
+
+  .loader-container{
+    display: none;
+    top: 45%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%; -50%);
+  }
+
 }
